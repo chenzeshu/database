@@ -1,0 +1,171 @@
+/*通用样式*/
+a{
+    text-decoration: none !important;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.check-false,.check-success{
+    font-size:40px
+}
+.style-center{
+    padding:0 0 0 15px !important;
+    line-height:16px !important;
+    text-align: center !important;
+}
+.style-center a{
+    display: block;
+}
+/* select等按钮样式*/
+.sel_button{
+    display: inline-block;
+    width:150px;
+    height:26px;
+    line-height:26px;
+    margin-right:6px;
+    font-size:12px;
+    color:rgba(7,17,27,1);
+    border:1px solid rgba(7,17,27,0.2);
+    border-radius: 3px;
+}
+
+/*审批下载按钮*/
+.sp_button{
+    display: block;
+    width: 96px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid rgb(7,17,27);
+    background: rgba(7,17,27,0);
+    border-radius: 2px;
+    text-align: center;
+    color:#000
+}
+.sp_button:active{
+    color:#EEA9B8;
+}
+/*审批人样式*/
+.sp_person
+{
+    color:#428bca
+}
+
+
+
+/* laydate修改 */
+.laydate-icon{
+    margin-top:1px !important;
+    height:26px !important;
+    width:128px !important;
+    border-radius:2px !important;
+    padding-left:8px !important;
+}
+
+/* 导航栏审批申请 */
+.info-wrapper{
+    position: relative;
+}
+.info{
+    display: block;
+    position: absolute;
+    right:6px;
+    bottom:13px;
+    width:22px;
+    height:22px;
+    line-height:20px;
+    text-align: center;
+    color:#fff;
+    background: red;
+    border-radius: 50%;
+}
+.info2{
+    display: block;
+    position: absolute;
+    right:24px;
+    bottom:8px;
+    width:22px;
+    height:22px;
+    line-height:22px;
+    text-align: center;
+    color:#fff;
+    background: red;
+    border-radius: 50%;
+}
+
+/*个人审批表样式*/
+.result_title{
+    font-size:0;
+}
+.personal-title{
+    display: inline-block;
+    font-size:16px;
+}
+
+.personal-state-wrapper{
+    display:inline-block;
+    padding:4px 12px;
+    margin-left:15px;
+    height:16px;
+    line-height:16px;
+    font-size:14px;
+    border:1px solid rgba(7,17,27,0.4);
+    border-radius: 3px;
+    color:#fff;
+}
+/*未提交*/
+.personal-state-wrapper.state1{
+    border-color:#eea236;
+    background:#f0ad4e
+}
+/*等待审核*/
+.personal-state-wrapper.state2{
+    border-color:#eea236;
+    background:#f0ad4e
+}
+/*审核通过*/
+.personal-state-wrapper.state3{
+    border-color:#2aad5e;
+    background:#48d280
+}
+/*审核未通过*/
+.personal-state-wrapper.state4{
+    border-color:#d9534f;
+    background:#d43f3a;
+    　-moz-user-select: none; /*火狐*/
+
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none;  /*IE10*/
+    -khtml-user-select: none; /*早期浏览器*/
+    user-select: none;
+}
+.personal-state-wrapper.state4:active{
+    color:#000;
+}
+.personal-state-wrapper.state4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*.personal-state{*/
+
+/*}*/
+
+/* 驳回信息弹出层样式 */
+.showinfo-wrapper{
+    position: relative;
+}
+.showinfo{
+    position:absolute;
+    top:20px;
+    left:32px;
+    right:64px;
+    line-height:24px;
+    font-size:16px;
+    font-weight:500;
+    word-wrap:break-word;
+}
+

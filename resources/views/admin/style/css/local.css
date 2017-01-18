@@ -1,0 +1,16 @@
+/*审批下载按钮*/
+.sp_button{
+    display: block;
+    width:45px;
+    height:22px;
+    line-height:22px;
+    font-size:18px;
+    border:1px solid rgba(7,17,27);
+    background:rgba(7,17,27,0.2);
+    border-radius:10px
+}
+/*审批人样式*/
+.sp_person
+{
+    color:#63B8FF
+}

@@ -1,0 +1,52 @@
+@-webkit-keyframes a-move {
+    0%{
+        top:90px;
+        right:50px
+    }
+    25%{
+        top:75px;
+        right:50px
+    }
+    50%{
+        top:60px;
+        right:50px
+    }
+    75%{
+        top:60px;
+        right:100px
+    }
+    100%{
+        top:60px;
+        right:160px
+    }
+}
+@media screen and (max-width:1458px) and (min-width: 1268px){
+    .short_wrap input{
+        margin-top:5px;
+    }
+    .short_wrap a:last-child{
+        animation: a-move 1s linear;
+        top:60px;
+        right:160px
+    }
+}
+
+@media screen and (max-width:1268px){
+    .short_wrap input{
+        margin-top:5px;
+    }
+    .short_wrap a:last-child{
+        /*animation: a-move2 1s linear;*/
+        top:128px;
+        right:80px
+    }
+}
+/**
+*专为项目管理部打造CSS样式
+*/
+.short_wrap a:last-child{
+    display: block;
+    position:absolute;
+    top: 90px;
+    right:50px
+}
